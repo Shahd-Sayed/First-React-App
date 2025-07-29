@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --bg-color: #282d35;
+  --nav-color: #21222a;
+  --color: #61dafb;
+}
+.container {
+  margin: 0 auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+body{
+  background-color: var(--bg-color);
+  font-family: sans-serif;
+}

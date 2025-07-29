@@ -1,0 +1,23 @@
+.main {
+  position: relative;
+  margin-top: 57px;
+  color: #fff;
+  h2 {
+    font-size: 40px;
+    margin-bottom: 46px;
+  }
+  ul {
+    padding-left: 40px;
+    line-height: 2rem;
+    li::marker {
+      color: var(--color);
+      font-size: 26px;
+    }
+  }
+  .img {
+    position: absolute;
+    right: 0;
+    top: 35px;
+    z-index: -1;
+  }
+}
